@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: 'meineIcons';
+	src: url('../fonts/ionicons.ttf');
+}
+
+p {
+	font-family: Fliesstext;
+}
+
+i {
+	font-family: meineIcons;
+	font-size: 1.5em;
+	color: #ffffff;
+	font-style: normal;
+}
+
+html {
+	scroll-behavior: smooth;
+	align-content: center;
+	user-select: none;
+}
+
+body {
+	color: #000000;
+	font-family: monospace;
+	font-size: 1.1em;
+	background-image: url(../../media/img/index2.png);
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: auto;
+	background-position: top;
+	min-height: 3000px;
+	overflow-y: scroll;
+	display: flex;
+	flex-direction: column;
+}
+
+nav {
+    position: absolute;
+    top: 47px;
+    left: 211px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+	font-size: medium;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+    margin-left: 50px;
+}
+
+nav a:first-child {
+    margin-left: 0; /* Entfernt den linken Rand beim ersten Link */
+}
+
+nav a:hover {
+    text-decoration: underline; /* Unterstreichung beim Hover */
+}
+
+
+h1 {
+	text-align: center;
+	font-family: Retro Gaming;
+}
+
+h2,
+h3 {
+	text-align: center;
+	font-family: monospace;
+}
+
+p {
+	margin: 1em;
+}
+
+a.back {
+	text-decoration: none;
+}
+
+img {
+	margin-left: 2em;
+	padding: 8em;
+	width: 13em;
+}
